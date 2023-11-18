@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+
+    background-image: url('1500x844_px_boat_clouds_forest_Germany_lake_landscape_mountains-840478.jpg!d');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+#nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+   justify-content: flex-end;
+   align-items: center;
+ flex-direction: row;
+ height: 50px;
+ width: 100%;
+ z-index: 3;
+ background-color: white;
+}
+
+#end{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+   width: 14%;
+   margin-right: 20px;
+}
+
+button {
+border: none;
+background-color: white;
+
+
+}
+#nav #let {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav #let:hover {
+   text-decoration: underline;
+}
+
+#nav #option{
+    width: 19px;
+    height: 19px;
+    padding: 12px;
+  
+}
+
+#nav #option:hover{
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+
+#nav #profile{
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: rgb(194,22,91);
+    padding: 10px;
+}
+
+#para {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+   
+}
+
+
+#graph {
+    display: flex;
+    width: 350px;
+    height: 450px;
+    border: 7px solid rgb(230,231,233);
+    border-radius: 25px;
+    position: fixed;
+    display: none;
+    right: 25px;
+    border-bottom: none;
+    box-shadow: 0px 0px 5px black;
+    overflow-y: scroll;
+  
+    background-color: white;
+ 
+}
+
+#hold{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+width: 90%;
+margin: auto;
+margin-bottom: 10px;
+background-color: aliceblue;
+
+
+
+}
+
+#para:focus-within #graph {
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ position: relative;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 85px;
+    height: 85px;
+    border-radius: 15px;
+   
+}
+
+#box:hover {
+    background-color: rgba(224, 221, 221, 0.879);
+}
+
+
+
+#grapher {
+    
+    width: 430px;
+  height: fit-content;
+    border-radius: 25px;
+    position: fixed;
+    display: none;
+    right: 25px;
+
+    box-shadow: 10px 0 10px -5px rgba(0, 0, 0, 0.2), -10px 0 10px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2),
+    0 -10px 10px -5px rgba(0, 0, 0, 0.2);
+   background-color: aliceblue;
+   
+ 
+}
+
+#para:focus-within #grapher {
+    display: block;
+}
+
+#holder{
+    
+text-align: center;
+width: 90%;
+margin: auto;
+
+
+
+}
+ #first,#sec , #third , #four , #five , #six{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+#first{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+#sec {
+  margin-top: 5px;
+    margin: auto;
+    border-radius: 50px;
+    background-color: rgb(194,22,91);
+    padding: 25px;
+   
+}
+
+#third{
+    margin: 8px;
+  font-size: 21px;
+    
+    font-family:  Helvetica, sans-serif;
+    
+}
+
+#four{
+    color: blue;
+    border: 0.5px solid rgb(89, 89, 89);
+    border-radius: 25px;
+    padding: 11px ;
+   width: 220px;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+#five {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+    width: 85%;  
+    margin: auto;
+    margin-top: 18px;
+
+}
+
+#five:hover , #love:hover , #wow:hover {
+    background-color: rgba(129, 127, 127, 0.51);
+   
+}
+
+#six{
+    font-size: 12px;
+    color: rgb(72, 72, 72);
+}
+
+
+#middle{
+    margin-top: 200px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+    width: 100%;
+
+    flex-wrap: wrap;
+    align-items: center;
+  
+    
+    
+}
+
+#middle #hoo { 
+   
+    width: fit-content;
+    width: 280px;
+    height: 90px;
+    margin: auto;
+}
+
+#middle #button {
+    position: relative;
+     height: 50px;
+  width: 600px;
+   margin-top: 20px;
+   border-radius: 25px;
+   border: 0.5px solid rgb(117, 117, 117);
+   background-image: url('find\ \(1\).png');
+   background-repeat: no-repeat;
+   background-position: 10px ;
+   background-size: 18px;
+   z-index: 2;
+
+ 
+    
+}
+
+#middle input {
+   border: none;
+    padding: 15px;
+      width: 480px;
+      
+      outline: none;
+
+
+}
+
+#middle button:hover {
+    box-shadow: 0px 0px 10px rgba(11, 11, 11,0.5);
+}
+
+
+
+
+
+
+
+
+#graphe {
+    
+    width: 600px;
+    height: 300px;
+    border-radius: 0 0  25px 25px;
+    background-color: white;
+    position: fixed;
+    display: none;
+    right: 420px;
+    top: 340px;
+   border: none;
+    box-shadow: 10px 0 10px -5px rgba(0, 0, 0, 0.2), -10px 0 10px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+      
+  
+  
+
+  
+  
+ 
+}
+
+#graphe #content{
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+     
+}
+#content p:hover {
+    background-color: rgba(150, 150, 150, 0.429);
+}
+
+#graphe p{
+    display: flex;
+    align-items: center;
+  margin: 5px;
+    color: purple;
+    margin-top: 10px;
+   
+}
+#graphe img{
+
+ width: 19px;
+ height: 19px;
+ margin-right: 20px;
+ margin-left: 20px;
+}
+
+
+#para:focus-within #graphe {
+    display: block;
+}
+input::placeholder{
+    font-size: 16px;
+}
+
+
+#rar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+ padding: 20px;
+width: 45%;
+margin: auto;
+
+  
+ 
+}
+
+
+#boxx {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+ position: relative;
+    flex-wrap: wrap;
+    z-index: 0;
+   
+}
+
+
+#boxx #you , #box #imgg {
+
+    border-radius: 50px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.458);
+    
+}
+
+
+#box #imgg{
+    padding: 10px;
+    background-color: rgb(194,22,91);
+}
+#box #maill{
+    width: 65px;
+    height: 65px;
+}
+
+#boxx #hm{
+    position: absolute;
+    right: 0;
+    top: 4px;
+    opacity: 0;
+    transition: opacity 4s ease;
+}
+
+#boxx:hover #hm{
+opacity: 1;
+}
+
+
+#boxx p , #box p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box p {
+    font-size: 13px;
+    color: gray;
+}
+
+#boxx:hover {
+    background-color: rgba(245, 245, 245, 0.218);
+
+   
+}
+#parent{
+    position: relative;
+}
+
+
+
+#letsgo{
+    width: fit-content;
+    display: none;
+}
+
+#parent:focus-within #letsgo{
+    display: block;
+}
+
+#parent button {
+    background-color: rgba(255, 255, 255, 0);
+  position: fixed;
+  top: 305px;
+  right: 70px;
+
+}
+
+#parent button:hover  {
+    background-color: rgba(129, 127, 127, 0.51);
+    border-radius: 100%;
+}
+
+#love {
+    display: flex;
+    align-items: center;
+
+   font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    background-color: white;
+    text-align: left;
+    width: 340px;  
+    margin: auto;
+    margin-top: 2px;
+    margin-left: 13px;
+
+}
+
+#wow {
+    display: flex;
+    align-items: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0 0 25px 25px;
+    padding: 12px;
+    background-color: white;
+    text-align: left;
+    width: 340px;  
+    margin: auto;
+    margin-top: 2px;
+    margin-left: 13px;
+
+}
+
+#letsgo img , #five img {
+ 
+    width: 23px;
+    height: 23px;
+}
